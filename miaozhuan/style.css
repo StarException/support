@@ -1,0 +1,21 @@
+:root { --bg:#f6f8f9; --ink:#12181c; --faint:#5c6b73; --accent:#0f9e8c; --rule:#dde4e8; --mono:ui-monospace, "SF Mono", Menlo, monospace; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg:#0c0f11; --ink:#e6edf0; --faint:#8a989f; --accent:#2fd8c3; --rule:#283036; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.75 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif; padding:0 16px; }
+.wrap { max-width:640px; margin:0 auto; padding:56px 0 72px; }
+header { border-bottom:1px solid var(--rule); padding-bottom:24px; margin-bottom:36px; }
+.kicker { font:600 12px/1 var(--mono); letter-spacing:3px; color:var(--accent); margin:0 0 14px; }
+h1 { font-size:26px; margin:0 0 6px; }
+.sub { color:var(--faint); font-size:14px; margin:0; }
+h2 { font-size:18px; margin:36px 0 8px; }
+p { margin:0 0 12px; }
+ul { margin:0 0 12px; padding-left:22px; }
+li { margin-bottom:6px; }
+a { color:var(--accent); }
+.lead { border-left:3px solid var(--accent); padding-left:16px; font-weight:600; }
+.q { font-weight:600; margin:28px 0 6px; }
+.mail { font:600 17px/1.4 var(--mono); }
+footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--rule); color:var(--faint); font-size:13px; }
