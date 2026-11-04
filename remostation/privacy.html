@@ -11,7 +11,7 @@
   <header>
     <p class="kicker">REMOSTATION</p>
     <h1>隐私政策</h1>
-    <p class="sub">生效日期：2026 年 10 月 25 日</p>
+    <p class="sub">生效日期：2026 年 11 月 4 日</p>
   </header>
 
   <p class="lead">RemoStation 不收集你的任何个人信息。RemoStation 没有自己的服务器，也没有接入任何统计、广告或崩溃上报工具。游戏画面只在你的设备（iPhone、iPad、Mac 或 Apple TV）和你自己的主机之间传输，不经过我们的服务器。</p>
@@ -21,6 +21,7 @@
   <ul>
     <li><strong>主机的配对信息</strong>：主机名称、主机编号，以及配对时主机发给 RemoStation 的连接凭据。存放在系统钥匙串里，只用于连接你自己的主机。在主机详情页点「取消配对」即可删除。</li>
     <li><strong>PSN 账号 ID</strong>：配对时主机要求提供，你登录 PSN 后由 RemoStation 向索尼查询得到；Apple TV 上的是你用 iPhone 扫码后由 iPhone 发过来的（见下文「帮 Apple TV 配对」）。只保存在本设备上，只在配对时发给你自己的主机。在「设置 › PSN 账号」里可以退出登录并删除。</li>
+    <li><strong>PlayStation 账号的登录状态</strong>：只有你在主机页「在外面玩」里点了「登录 PlayStation 账号直连」才有。登录后索尼给的登录凭证（访问令牌和刷新令牌）、你的在线 ID、RemoStation 为这台设备生成的一个随机设备编号，保存在本设备的钥匙串里，不同步到 iCloud，不发给我们。之后你在外面连家里的 PS5 时，RemoStation 用它向索尼的服务器证明是你本人、列出你账号下的主机、请索尼通知你的 PS5 和本设备交换网络地址。在同一页点「退出登录」就删除。</li>
     <li><strong>游玩记录</strong>：每次游玩的开始时间、主机名称、正在运行的游戏名称和时长，存放在本设备的钥匙串里。在「游玩记录」页面底部可以一键清空。</li>
     <li><strong>免费试玩的用量</strong>：存放在钥匙串里。如果你打开了 iCloud 钥匙串，它会由 Apple 以端到端加密的方式同步到你同一 Apple 账户的其他设备，我们无法读取。</li>
     <li><strong>在外面玩的地址</strong>：你在主机页「在外面玩」里填的家里公网地址或域名（或者异地组网里主机的地址），存放在 RemoStation 的设置里，只用来连接你自己的主机。清空这一栏或者取消配对即可删除。</li>
@@ -34,7 +35,8 @@
     <li><strong>麦克风和体感</strong>：你在串流菜单里打开「麦克风」后，RemoStation 把麦克风收到的声音编码后实时发给你自己的主机，用于游戏里的语音聊天和吹麦克风之类的玩法；关掉就停，不录音、不保存。没接 PS 手柄时，RemoStation 把手机的转动和倾斜（陀螺仪、加速度计）当成手柄体感实时发给你自己的主机，同样不保存。</li>
     <li><strong>给主机打字</strong>：主机上点到输入框时，你在弹出的输入条里打的字会实时发给你自己的主机，填进那个输入框；不保存，也不发给别处。</li>
     <li><strong>帮 Apple TV 配对</strong>：在 Apple TV 上配对时，电视上会显示一个二维码。你用 iPhone 扫码、在 iPhone 的 RemoStation 里点「发给 Apple TV」后，iPhone 通过你家的局域网把 PSN 账号 ID 发给这台 Apple TV（只发账号 ID，不发密码和登录凭证），二维码里的一次性口令用来确认是你面前这台电视；不经过我们的服务器。</li>
-    <li><strong>索尼</strong>：登录 PSN 是在 RemoStation 里打开的索尼官方登录网页上完成的，账号密码直接交给索尼，RemoStation 接触不到。登录后，RemoStation 用登录结果向索尼的服务器查询你的 PSN 账号 ID；过程中产生的访问凭证只在内存中临时使用，不会保存。这部分受索尼隐私政策约束。</li>
+    <li><strong>索尼</strong>：登录 PSN 是在 RemoStation 里打开的索尼官方登录网页上完成的，账号密码直接交给索尼，RemoStation 接触不到。配对时，RemoStation 用登录结果向索尼的服务器查询你的 PSN 账号 ID，这一次的访问凭证只在内存中临时使用，不保存。如果你另外打开了「登录 PlayStation 账号直连」，登录凭证会按上文说的保存在本设备上；在外面连接时，你的设备和 PS5 的网络地址（外网 IP 和端口、局域网 IP）经索尼的服务器交给对方，用来建立直接连接，画面和操作不经过索尼的服务器，也不经过我们。这部分受索尼隐私政策约束。</li>
+    <li><strong>公共 STUN 服务器</strong>：只在你用「登录 PlayStation 账号直连」时，RemoStation 向 Cloudflare、Google、小米、哔哩哔哩的公共 STUN 服务器问一下本设备的外网地址，用来和 PS5 建立直接连接。这些服务器只看到你的外网 IP 和端口，不会收到你的账号或任何内容。</li>
     <li><strong>Apple</strong>：购买「完整版」由 App Store 处理，我们拿不到你的支付信息。为了判断网络是否可用（例如中国大陆 iPhone 的「无线数据」权限），RemoStation 会访问 Apple 的网络检测地址 captive.apple.com，不附带任何个人信息。请你评分的弹窗由 Apple 系统显示和处理。</li>
   </ul>
 
@@ -59,7 +61,7 @@
 
   <section class="lang" lang="en">
     <h1>Privacy Policy</h1>
-    <p class="sub">Effective date: October 25, 2026</p>
+    <p class="sub">Effective date: November 4, 2026</p>
 
     <p class="lead">RemoStation does not collect any of your personal information. It has no servers of its own and includes no analytics, advertising or crash-reporting tools. The game stream travels only between your device (iPhone, iPad, Mac or Apple TV) and your own console, never through servers of ours.</p>
 
@@ -68,6 +70,7 @@
     <ul>
       <li><strong>Console pairing information</strong>: the console's name and ID, and the connection credentials the console gives RemoStation when you pair. Stored in the system Keychain and used only to connect to your own console. Remove it with "Unpair" on the console's page.</li>
       <li><strong>PSN account ID</strong>: required by the console for pairing. After you sign in to PSN, RemoStation looks it up from Sony; on Apple TV it is sent from your iPhone after you scan the QR code (see Pairing Apple TV below). It is stored only on this device and sent only to your own console when pairing. Sign out and remove it under Settings › PSN Account.</li>
+      <li><strong>PlayStation sign-in</strong>: only if you tap Connect with your PlayStation account under Play Away from Home on a console's page. The sign-in tokens Sony issues (access and refresh token), your online ID and a random device ID RemoStation creates for this device are kept in this device's Keychain. They are not synced to iCloud and never sent to us. When you connect to your PS5 from outside your home, RemoStation uses them to prove to Sony's servers that it is you, to list the consoles on your account, and to ask Sony to let your PS5 and this device exchange network addresses. Tap Sign Out on the same page to delete them.</li>
       <li><strong>Play history</strong>: start time, console name, the name of the game that was running, and duration of each session, stored in this device's Keychain. Clear it with the button at the bottom of the Play History page.</li>
       <li><strong>Free-trial usage</strong>: stored in the Keychain. If you use iCloud Keychain, Apple syncs it end-to-end encrypted to your other devices signed in to the same Apple Account; we cannot read it.</li>
       <li><strong>Play Away from Home address</strong>: the public IP address or domain of your home (or your console's address on a virtual private network) that you enter under Play Away from Home on the console's page. Stored in RemoStation's settings and used only to connect to your own console. Remove it by clearing that field or unpairing the console.</li>
@@ -81,7 +84,8 @@
       <li><strong>Microphone and motion</strong>: when you turn on Mic in the in-stream menu, RemoStation encodes what the microphone hears and sends it live to your own console, for in-game voice chat and games that use the microphone. Turning it off stops it; nothing is recorded or stored. When no PlayStation controller is connected, RemoStation sends your iPhone's turning and tilting (gyroscope and accelerometer) live to your own console as the controller's motion sensors, also without storing anything.</li>
       <li><strong>Typing on your console</strong>: when you select a text field on your console, what you type in the input bar that appears is sent live to your own console to fill in that field. It is not stored or sent anywhere else.</li>
       <li><strong>Pairing Apple TV</strong>: When you pair on Apple TV, the TV shows a QR code. After you scan it with your iPhone and tap Send to Apple TV in RemoStation on your iPhone, the iPhone sends your PSN account ID to that Apple TV over your home network (only the account ID, never your password or sign-in token). A one-time code in the QR code makes sure it reaches the TV in front of you. Nothing passes through servers of ours.</li>
-      <li><strong>Sony</strong>: you sign in to PSN on Sony's official sign-in page, opened inside RemoStation. Your credentials go directly to Sony; RemoStation never sees them. RemoStation then uses the sign-in result to look up your PSN account ID from Sony's servers; the access token involved is used only in memory and never stored. Sony's privacy policy applies to this.</li>
+      <li><strong>Sony</strong>: you sign in to PSN on Sony's official sign-in page, opened inside RemoStation. Your credentials go directly to Sony; RemoStation never sees them. When pairing, RemoStation uses the sign-in result to look up your PSN account ID from Sony's servers; that access token is used only in memory and never stored. If you also turn on Connect with your PlayStation account, the sign-in tokens are kept on this device as described above. When you connect from outside your home, the network addresses of your device and your PS5 (public IP and port, local IP) are passed between them through Sony's servers so they can connect directly; the picture and your controls never go through Sony's servers or ours. Sony's privacy policy applies to this.</li>
+      <li><strong>Public STUN servers</strong>: only when you use Connect with your PlayStation account, RemoStation asks public STUN servers run by Cloudflare, Google, Xiaomi and Bilibili for this device's public address, to set up the direct connection with your PS5. They only see your public IP and port, never your account or any content.</li>
       <li><strong>Apple</strong>: purchases of the Full Version are handled by the App Store; we never receive your payment information. To check whether the network is usable (for example the Wireless Data permission on iPhones sold in mainland China), RemoStation contacts Apple's connectivity check at captive.apple.com without sending any personal information. The prompt asking you to rate the app is shown and handled by Apple.</li>
     </ul>
 
